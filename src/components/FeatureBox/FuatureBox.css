@@ -1,0 +1,27 @@
+.feature-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.feature-box img {
+    border-radius: 10px;
+    width: 360px;
+    height: 234px;
+}
+
+.feature-box h3 {
+    color: #1f1f1f;
+    font-size: 22px;
+    letter-spacing: .4px;
+    font-weight: 500;
+    margin: 20px 0 12px;
+}
+
+.feature-box p {
+    font-size: 15px;
+    color: #999;
+    font-weight: 300;
+    letter-spacing: .3px;
+}

@@ -1,0 +1,41 @@
+.mini-box {
+  width: 280px;
+  height: 310px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+  cursor: pointer;
+}
+
+.mini-box img {
+  width: 50px;
+  height: 85px;
+  padding: 20px 0;
+  transition: all 1s;
+}
+
+.mini-box:hover img {
+  transform: rotate(360deg);
+}
+
+.mini-box h2 {
+  font-size: 22px;
+  letter-spacing: 0.3px;
+  color: #1f1f1f;
+  padding: 15px 0;
+  font-weight: 500;
+  transition: all 1s;
+}
+
+.mini-box:hover h2 {
+  color: #2f70fe;
+}
+
+.mini-box p {
+  color: #999;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}

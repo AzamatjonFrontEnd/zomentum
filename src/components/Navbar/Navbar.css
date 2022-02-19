@@ -1,0 +1,78 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .navbar-brand {
+  width: auto;
+  margin-right: 370px;
+}
+
+.navbar .navbar-brand img {
+  width: 202px;
+  height: 28px;
+}
+
+.navbar .nav-links {
+  width: auto;
+}
+
+.navbar .nav-links ul {
+  display: flex;
+  gap: 32px;
+}
+
+.navbar .nav-links ul li {
+  list-style-type: none;
+}
+
+.navbar .nav-links ul li a {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 18px;
+  letter-spacing: 0.03rem;
+  color: #000c2d;
+  cursor: pointer;
+}
+
+.navbar .nav-links ul li a img {
+  width: 16px;
+  height: 16px;
+}
+
+.navbar .nav-links ul li .btn-1 {
+  position: static;
+  width: 90px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #2F70FE;
+  padding: 12px 23px;
+  border: 1px solid #2F70FE;
+}
+
+.navbar .nav-links ul .login {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-links ul .login img {
+    margin-right: 4px;
+}
+
+.navbar .nav-links ul .signin {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .nav-links ul .signin img {
+  margin-right: 4px;
+}

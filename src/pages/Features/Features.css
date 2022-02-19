@@ -1,0 +1,30 @@
+.features {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.features .about {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.features .about h1 {
+    color: #1f1f1f;
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+.features .about p {
+    font-size: 18px;
+    color: #999;
+}
+
+.features .services {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

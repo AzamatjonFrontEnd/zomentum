@@ -1,0 +1,45 @@
+.home-left {
+  display: flex;
+  gap: 120px;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-left .notes h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #181818;
+  margin-bottom: 24px;
+}
+
+.home-left .notes p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: #000c2d;
+}
+
+.home-left .notes .btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #2f70fe;
+    margin-top: 20px;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+  }
+  
+  .home-left .notes .btn span {
+      transition: all .2s ease-in-out;
+  }
+  
+  .home-left .notes .btn:hover span {
+      margin-left: 10px;
+  }
